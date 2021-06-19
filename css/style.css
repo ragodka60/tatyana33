@@ -47,7 +47,7 @@ h1 {
 .mark {
   font-size: 40px;
 }
-.name:hover {
+.name:active {
   width: 500px;
   color: rgb(185, 23, 123);
   background-color: rgba(255, 182, 193, 0.365);
