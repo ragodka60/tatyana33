@@ -1,3 +1,25 @@
+const t = document.querySelector(".t");
+const a = document.querySelector(".a");
+const n = document.querySelector(".n");
+const ya = document.querySelector(".ya");
+const defT = () => {
+  t.style.width = "400px";
+};
+const defA = () => {
+  a.style.width = "400px";
+};
+const defN = () => {
+  n.style.width = "400px";
+};
+const defYa = () => {
+  ya.style.width = "400px";
+};
+
+t.addEventListener("click", defT);
+a.addEventListener("click", defA);
+n.addEventListener("click", defN);
+ya.addEventListener("click", defYa);
+
 let growWidth = 0;
 let growHeight = 0;
 function growBlock() {
