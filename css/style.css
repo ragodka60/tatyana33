@@ -19,7 +19,7 @@ h1 {
   margin-bottom: 20px;
 }
 
-.name {
+.t, .a, .n, .ya {
   margin: 0 auto 10px;
   overflow: hidden;
   width: 40px;
@@ -48,7 +48,7 @@ h1 {
   font-size: 40px;
 }
 .name:active {
-  width: 500px;
+  width: 400px;
   color: rgb(185, 23, 123);
   background-color: rgba(255, 182, 193, 0.365);
 }
